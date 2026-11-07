@@ -8,4 +8,9 @@ def predict_performance(hours):
 
 result = predict_performance(study_hours)
 
+print("==============================")
+print("  STUDENT PERFORMANCE REPORT  ")
+print("==============================")
+print("Study Hours:", study_hours)
 print("Prediction:", result)
+print("==============================")
