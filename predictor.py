@@ -1,8 +1,16 @@
 study_hours = 5
 
-if study_hours >= 4:
-    print("Likely to pass")
-else:
-    print("Needs more preparation")
+def predict_performance(hours):
+    if hours >= 4:
+        return "Likely to pass"
+    else:
+        return "Needs more preparation"
 
-print("Student performance prediction completed")
+result = predict_performance(study_hours)
+
+print("==============================")
+print("  STUDENT PERFORMANCE REPORT  ")
+print("==============================")
+print("Study Hours:", study_hours)
+print("Prediction:", result)
+print("==============================")
