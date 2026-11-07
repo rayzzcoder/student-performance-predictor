@@ -4,3 +4,5 @@ if study_hours >= 4:
     print("Likely to pass")
 else:
     print("Needs more preparation")
+
+print("Student performance prediction completed")
